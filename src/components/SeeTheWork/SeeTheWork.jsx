@@ -2,9 +2,9 @@ import React from 'react'
 
 const SeeTheWork = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <p>This is where you'll see Tim's work</p>
+        </>
     )
 }
 

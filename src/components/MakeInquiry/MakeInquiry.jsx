@@ -2,9 +2,9 @@ import React from 'react'
 
 const MakeInquiry = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <p>This is where you'll make an inquiry for a project</p>
+        </>
     )
 }
 
