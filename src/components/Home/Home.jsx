@@ -1,10 +1,9 @@
 import React from 'react'
-import homeimage from '../../../public/bookcase.jpg'
 
 const Home = () => {
     return (
         <div>
-            <img src={homeimage} alt='home image' />
+            <img src="https://i.imgur.com/UIVZCAl.jpg" alt='Photo by Bernard Hermant on Unsplash' />
             <p>This will be the home screen.</p>
         </div>
     )

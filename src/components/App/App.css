@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .App-header {
@@ -18,5 +19,18 @@
 }
 
 a{
-  color: #ebeced;
+  color: #2f2e31;
+}
+
+.sticky .sticky-inner{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.sticky-wrapper {
+  position: relative;
+  height: 3rem;
 }

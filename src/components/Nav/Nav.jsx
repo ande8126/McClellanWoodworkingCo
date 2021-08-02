@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
-        <header>
+        <header className="sticky-inner">
             <h1>McClellan Woodworking Co.</h1>
             <div className="navBar">
                 <ul>        
