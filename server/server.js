@@ -9,6 +9,7 @@ const app = express();
 /* stil need to plan out back-end
 and think about what exactly needs to connect back to the 
 database */
+const inquiriesRouter = require( './routes/inquiries.router');
 const jobsRouter = require('./routes/jobs.router');
 const clientsRouter = require('./routes/clients.router');
 
@@ -17,6 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //using the routers
+app.use( '/api/inquiries', inquiriesRouter )
 app.use( '/api/jobs', jobsRouter );
 app.use( '/api/clients', clientsRouter );
 
