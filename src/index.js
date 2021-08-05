@@ -25,6 +25,9 @@ const store = createStore(
   applyMiddleware( ...middlewareList),
 )
 
+//tell middleware about rootSaga
+sagaMiddleware.run( rootSaga );
+
 
 ReactDOM.render(
   <Provider store={store}>

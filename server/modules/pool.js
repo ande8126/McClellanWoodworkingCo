@@ -23,7 +23,7 @@ if (process.env.DATABASE_URL) {
         config = {
         host: 'localhost',
         port: 5432,
-        database: 'prime_app', // CHANGE THIS LINE to match your local database name!
+        database: 'mcclellan', // CHANGE THIS LINE to match your local database name!
     };
 
 }
