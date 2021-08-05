@@ -7,7 +7,12 @@ const router = express.Router();
 router.post( '/', ( req, res )=>{
     console.log( 'in POST with:', req.body );
     queryText = 'INSERT INTO "inquiries" ("first_name", "last_name", "email", "phone", "description") VALUES ($1, $2, $3, $4, $5);';
-    pool.query( queryText, [ req.body.first_name, req.body.last_name, req.body.email, req.body.phone, req.body.description ])
+    pool.query( queryText, [ req.body.first_name, req.body.last_name, req.body.email, req.body.phone, req.body.description ]).then( ( results )=>{
+        res.sendStatus( 200 );
+    }).catch( ( err ) =>{
+        console.log( 'error in inquiry POST:', err );
+        res.sendStatus( 500 );
+    })
 })
 
 module.exports = router;
