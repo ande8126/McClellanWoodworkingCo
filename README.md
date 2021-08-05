@@ -7,7 +7,7 @@ This is a prototype of a potential web app for my neighbor, who owns a woodworki
 
 ### Develop user portal
 [ ] Main page
-    [ ] Build nav/header
+    [x] Build nav/header
         - setup hashrouter
         - add logo
         - tabs for See the work, Make inquiry, About

@@ -12,7 +12,7 @@ function* sendInquiry( action ) {
 }
 
 function* sendInquirySaga() {
-  yield takeLatest('SEND_INQUIRY', sendRequest);
+  yield takeLatest('SEND_INQUIRY', sendInquiry);
 }
 
 export default sendInquirySaga;
