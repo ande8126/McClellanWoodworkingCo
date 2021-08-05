@@ -34,8 +34,8 @@ const MakeInquiry = () => {
             <br />
             <br />
             <h2>Make an inquiry</h2>
-            <input type="text" placeholder="name" onChange={handleFirstName} />
-            <input type="text" placeholder="name" onChange={handleLastName} />
+            <input type="text" placeholder="first name" onChange={handleFirstName} />
+            <input type="text" placeholder="second name" onChange={handleLastName} />
             <input type="text" placeholder="email" onChange={handleEmail} />
             <input type="text" placeholder="phone" onChange={handlePhone} />
             <input type="text" placeholder = "description" onChange={handleDescription} />
