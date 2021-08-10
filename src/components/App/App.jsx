@@ -8,6 +8,7 @@ import SeeTheWork from '../SeeTheWork/SeeTheWork';
 import About from '../About/About';
 import MakeInquiry from '../MakeInquiry/MakeInquiry';
 import Contact from '../Contact/Contact';
+import AdminMain from '../AdminMain/AdminMain';
 //tools
 import { Fragment, useEffect, useRef, useState } from 'react';
 import {HashRouter as Router, Route} from 'react-router-dom';
@@ -52,6 +53,9 @@ function App() {
         </Route>
         <Route exact path='/contact'>
           <Contact />
+        </Route>
+        <Route exact path='/admin'>
+          <AdminMain />
         </Route>
       </Router>
     </>
