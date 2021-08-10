@@ -29,9 +29,26 @@ This is a prototype of a potential web app for my neighbor, who owns a woodworki
     - video tab
     - show video cards when tab clicked (GET route)
 
-[ ] Make Inquiry page
-    [ ] Text box for name
-    [ ] Text box for email
-    [ ] Text box for phone
-    [ ] POST route
+[x] Make Inquiry page
+    [x] Text box for name
+    [x] Text box for email
+    [x] Text box for phone
+    [x] POST route
+
+[ ] Make admin main
+    [ ] Populate new inquiries
+    [ ] GET route to inquiries table
+    [ ] Button to "take job" - move to new db
+    [ ] Update DB with "jobs" table
+    [ ] POST route to "jobs" table
+
+
+[ ] Make admin track orders page
+    [ ] Populate jobs list
+    [ ] GET route to "jobs" table
+
+[ ] Make admin edit gallery page
+    [ ] Setup EC3 or S3 bucket for uploading images
+    [ ] Send those photos to gallery some how
+
  
