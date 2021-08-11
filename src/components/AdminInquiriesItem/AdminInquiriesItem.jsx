@@ -5,9 +5,10 @@ const AdminInquiriesItem = ( { inquiry } ) => {
         <>
             <p>First Name: {inquiry.first_name}</p>
             <p>Last Name: {inquiry.last_name}</p>    
-            <p>Email: {inquiry.first_name}</p>    
-            <p>Phone: {inquiry.first_name}</p>    
-            <p>Description: {inquiry.first_name}</p>        
+            <p>Email: {inquiry.email}</p>    
+            <p>Phone: {inquiry.phone}</p>    
+            <p>Description: {inquiry.description}</p> 
+            <p>Date: {inquiry.date}</p>       
         </>
     )
 }

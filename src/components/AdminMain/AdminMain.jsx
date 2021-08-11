@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 
 //components
-import AdminInquiriesList from '../AdminInquiriesList';
+import AdminInquiriesList from '../AdminInquiriesList/AdminInquiriesList';
 
 const AdminMain = () => {
     //GET call to inquiries db
@@ -35,6 +35,8 @@ const AdminMain = () => {
             <br />
             <br />
             <h2>Admin home</h2>
+            {/* conditional render if no inquiries */}
+            {displayWelcome()}
             {/* map inquiries to table (props to AdminInquiries) */}
             <AdminInquiriesList inquiries = {inquiries} />
 

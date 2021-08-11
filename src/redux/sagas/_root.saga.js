@@ -1,6 +1,7 @@
 import { all } from 'redux-saga/effects';
 //import sagas here
 import sendInquirySaga from './newinquiry.saga';
+import inquiriesSaga from './inquiries.saga';
 
 // rootSaga is the primary saga.
 // It bundles up all of the other sagas so our project can use them.
@@ -12,6 +13,7 @@ import sendInquirySaga from './newinquiry.saga';
 export default function* rootSaga() {
     yield all([
     //sagas go here
-    sendInquirySaga()
+    sendInquirySaga(),
+    inquiriesSaga()
     ]);
 }

@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 //import new reducers here:
+import inquiries from './inquiries.reducer';
 
 // rootReducer is the primary reducer for our entire project
 // It bundles up all of the other reducers so our project can use them.
@@ -9,6 +10,7 @@ import { combineReducers } from 'redux';
 // This is what we get when we use 'state' inside of 'mapStateToProps'
 const rootReducer = combineReducers({
   //reducers go here
+  inquiries // brings in all current inquiries
 });
 
 export default rootReducer;

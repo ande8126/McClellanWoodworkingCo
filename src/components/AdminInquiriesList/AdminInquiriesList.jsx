@@ -1,5 +1,5 @@
 import React from 'react'
-import AdminInquiriesItem from '../AdminInquiriesItem';
+import AdminInquiriesItem from '../AdminInquiriesItem/AdminInquiriesItem';
 
 const AdminInquiriesList = ( { inquiries } ) => {
     return (
